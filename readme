@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profesional</title>
+    <style>
+        body { background-color: #f4f4f9; font-family: sans-serif; display: flex; justify-content: center; padding: 20px; }
+        
+        .card { background: white; width: 350px; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid #ddd; }
+        
+        header { background-color: #1a73e8; color: white; text-align: center; padding: 30px 10px; }
+        header h1 { margin: 0; font-size: 24px; }
+        header p { margin: 5px 0 0; font-size: 14px; text-transform: uppercase; opacity: 0.9; }
+
+        section { padding: 20px; }
+        section h2 { text-align: center; font-size: 18px; color: #333; text-transform: uppercase; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        
+        ul { list-style: none; padding: 0; }
+        li { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #f9f9f9; color: #666; }
+        .valor { color: #1a73e8; font-weight: bold; }
+
+        .acciones { padding: 0 20px 20px; display: flex; flex-direction: column; gap: 10px; }
+        button { padding: 12px; border-radius: 8px; border: 1px solid #ddd; cursor: pointer; font-weight: bold; }
+        #mensaje-directo { background-color: #1a73e8; color: white; border: none; }
+
+        footer { padding: 15px; background: #fdfdfd; border-top: 1px solid #eee; font-size: 12px; color: #888; }
+        .disponible { color: #00a86b; font-weight: bold; text-align: center; margin: 0; }
+        .ubicacion { text-align: center; margin: 5px 0 0; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <header>
+            <h1>Alejandro García</h1>
+            <p>Desarrollador Web Fullstack</p>
+        </header>
+        <section>
+            <h2>Información de Perfil</h2>
+            <ul>
+                <li>Proyectos <span class="valor">24</span></li>
+                <li>Experiencia <span class="valor">5 años</span></li>
+                <li>Seguidores <span class="valor">1.2k</span></li>
+            </ul>
+        </section>
+        <div class="acciones">
+            <button>Ver Portafolio</button>
+            <button id="mensaje-directo">Enviar Mensaje</button>
+        </div>
+        <footer>
+            <p class="disponible">● Disponible para trabajar</p>
+            <p class="ubicacion">Madrid, España</p>
+        </footer>
+    </div>
+</body>
+</html>
